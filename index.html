@@ -2,104 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gardening Service Booking Form</title>
-  <!-- Link to external CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy Warriors - Game Launch</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <h1>Galaxy Warriors</h1>
+    <p class="tagline">The Battle for the Stars Begins</p>
+  </header>
 
-  <h1>Gardening Service Booking Form</h1>
+  <!-- Game Image -->
+  <section class="banner">
+    <img src="https://via.placeholder.com/900x300?text=Galaxy+Warriors+Banner" alt="Galaxy Warriors Banner">
+  </section>
 
-  <form action="#" method="post" enctype="multipart/form-data">
-    
-    <!-- Personal Info -->
-    <label for="name">Full Name:</label>
-    <input type="text" id="name" name="name" required placeholder="Your full name" />
+  <!-- Game Description -->
+  <section class="description">
+    <h2>About the Game</h2>
+    <p>Embark on an interstellar journey in <strong>Galaxy Warriors</strong>, a high-octane space combat adventure. Join elite pilots in epic battles across distant galaxies as you defend Earth from an alien invasion.</p>
+  </section>
 
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required placeholder="example@email.com" />
+  <!-- Features -->
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>🔥 Real-time space combat</li>
+      <li>🛸 20+ customizable ships</li>
+      <li>🌌 Open-world galactic exploration</li>
+      <li>🧠 AI-powered alien enemies</li>
+      <li>🎮 Multiplayer co-op mode</li>
+    </ul>
+  </section>
 
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" placeholder="+1-234-567-8901" />
-
-    <!-- Address -->
-    <label for="address">Street Address:</label>
-    <input type="text" id="address" name="address" required placeholder="123 Garden St." />
-
-    <label for="city">City:</label>
-    <select id="city" name="city" required>
-      <option value="">--Select your city--</option>
-      <option value="delhi">Delhi</option>
-      <option value="mumbai">Mumbai</option>
-      <option value="chennai">Chennai</option>
-      <option value="kolkata">Kolkata</option>
-    </select>
-
-    <label for="postcode">Postal Code:</label>
-    <input type="text" id="postcode" name="postcode" placeholder="123456" />
-
-    <label for="state">State/Province:</label>
-    <input type="text" id="state" name="state" placeholder="State or Province" />
-
-    <!-- Services -->
-    <p><strong>Choose Services:</strong></p>
-    <div class="checkbox-group">
-      <input type="checkbox" id="mowing" name="services" value="Lawn Mowing" />
-      <label for="mowing">Lawn Mowing</label>
-
-      <input type="checkbox" id="trimming" name="services" value="Tree Trimming" />
-      <label for="trimming">Tree Trimming</label>
-
-      <input type="checkbox" id="design" name="services" value="Garden Design" />
-      <label for="design">Garden Design</label>
-
-      <input type="checkbox" id="pest" name="services" value="Pest Control" />
-      <label for="pest">Pest Control</label>
-
-      <input type="checkbox" id="cleanup" name="services" value="Seasonal Cleanup" />
-      <label for="cleanup">Seasonal Cleanup</label>
+  <!-- Screenshots -->
+  <section>
+    <h2>Game Screenshots</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/250x150?text=Screenshot+1" alt="Screenshot 1">
+      <img src="https://via.placeholder.com/250x150?text=Screenshot+2" alt="Screenshot 2">
+      <img src="https://via.placeholder.com/250x150?text=Screenshot+3" alt="Screenshot 3">
     </div>
+  </section>
 
-    <!-- Date and Time -->
-    <label for="date">Preferred Date:</label>
-    <input type="date" id="date" name="date" required />
+  <!-- Requirements Table -->
+  <section>
+    <h2>System Requirements</h2>
+    <table>
+      <tr>
+        <th>Component</th>
+        <th>Minimum</th>
+        <th>Recommended</th>
+      </tr>
+      <tr>
+        <td>OS</td>
+        <td>Windows 10</td>
+        <td>Windows 11</td>
+      </tr>
+      <tr>
+        <td>Processor</td>
+        <td>Intel i5</td>
+        <td>Intel i7 or AMD Ryzen 7</td>
+      </tr>
+      <tr>
+        <td>Memory</td>
+        <td>8 GB RAM</td>
+        <td>16 GB RAM</td>
+      </tr>
+      <tr>
+        <td>Graphics</td>
+        <td>NVIDIA GTX 1050</td>
+        <td>NVIDIA RTX 3060</td>
+      </tr>
+    </table>
+  </section>
 
-    <label for="time">Preferred Time:</label>
-    <input type="time" id="time" name="time" />
+  <!-- Newsletter -->
+  <section>
+    <h2>Subscribe for Updates</h2>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
 
-    <!-- Frequency -->
-    <p><strong>Service Frequency:</strong></p>
-    <div class="radio-group">
-      <input type="radio" id="one-time" name="frequency" value="One-time" checked />
-      <label for="one-time">One-time</label>
+  <!-- Launch Date -->
+  <section>
+    <h2>Launch Date</h2>
+    <p>🌠 Launching on <strong>October 10, 2025</strong> Worldwide!</p>
+  </section>
 
-      <input type="radio" id="weekly" name="frequency" value="Weekly" />
-      <label for="weekly">Weekly</label>
-
-      <input type="radio" id="bi-weekly" name="frequency" value="Bi-weekly" />
-      <label for="bi-weekly">Bi-weekly</label>
-
-      <input type="radio" id="monthly" name="frequency" value="Monthly" />
-      <label for="monthly">Monthly</label>
-    </div>
-
-    <!-- Additional Notes -->
-    <label for="notes">Additional Notes:</label>
-    <textarea id="notes" name="notes" rows="4" placeholder="Any special instructions..."></textarea>
-
-    <!-- Upload Photo -->
-    <label for="photo">Upload Garden Photo (optional):</label>
-    <input type="file" id="photo" name="photo" accept="image/*" />
-
-    <!-- Terms and Conditions -->
-    <input type="checkbox" id="terms" name="terms" required />
-    <label for="terms">I agree to the terms and conditions</label>
-
-    <!-- Submit Button -->
-    <button type="submit">Book Now</button>
-
-  </form>
-
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Galaxy Warriors Inc. All Rights Reserved.</p>
+    <p>
+      <a href="https://twitter.com" target="_blank">Twitter</a> |
+      <a href="mailto:info@galaxywarriors.com">Email Us</a> |
+      <a href="tel:+1234567890">Call</a>
+    </p>
+  </footer>
 </body>
 </html>
